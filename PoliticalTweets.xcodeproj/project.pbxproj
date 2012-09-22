@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C847F36160D59AD005672ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C847F35160D59AD005672ED /* UIKit.framework */; };
+		0C847F38160D59AD005672ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C847F37160D59AD005672ED /* Foundation.framework */; };
+		0C847F3A160D59AD005672ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C847F39160D59AD005672ED /* CoreGraphics.framework */; };
+		0C847F40160D59AD005672ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C847F3E160D59AD005672ED /* InfoPlist.strings */; };
+		0C847F42160D59AD005672ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C847F41160D59AD005672ED /* main.m */; };
+		0C847F46160D59AD005672ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C847F45160D59AD005672ED /* AppDelegate.m */; };
+		0C847F48160D59AD005672ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C847F47160D59AD005672ED /* Default.png */; };
+		0C847F4A160D59AD005672ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C847F49160D59AD005672ED /* Default@2x.png */; };
+		0C847F4C160D59AD005672ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C847F4B160D59AD005672ED /* Default-568h@2x.png */; };
+		0C847F4F160D59AD005672ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C847F4D160D59AD005672ED /* MainStoryboard.storyboard */; };
+		0C847F52160D59AD005672ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C847F51160D59AD005672ED /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C847F31160D59AD005672ED /* PoliticalTweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliticalTweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C847F35160D59AD005672ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0C847F37160D59AD005672ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C847F39160D59AD005672ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0C847F3D160D59AD005672ED /* PoliticalTweets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoliticalTweets-Info.plist"; sourceTree = "<group>"; };
+		0C847F3F160D59AD005672ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C847F41160D59AD005672ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C847F43160D59AD005672ED /* PoliticalTweets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PoliticalTweets-Prefix.pch"; sourceTree = "<group>"; };
+		0C847F44160D59AD005672ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C847F45160D59AD005672ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C847F47160D59AD005672ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0C847F49160D59AD005672ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0C847F4B160D59AD005672ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0C847F4E160D59AD005672ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0C847F50160D59AD005672ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C847F51160D59AD005672ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C847F2E160D59AD005672ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C847F36160D59AD005672ED /* UIKit.framework in Frameworks */,
+				0C847F38160D59AD005672ED /* Foundation.framework in Frameworks */,
+				0C847F3A160D59AD005672ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C847F26160D59AD005672ED = {
+			isa = PBXGroup;
+			children = (
+				0C847F3B160D59AD005672ED /* PoliticalTweets */,
+				0C847F34160D59AD005672ED /* Frameworks */,
+				0C847F32160D59AD005672ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C847F32160D59AD005672ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C847F31160D59AD005672ED /* PoliticalTweets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C847F34160D59AD005672ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C847F35160D59AD005672ED /* UIKit.framework */,
+				0C847F37160D59AD005672ED /* Foundation.framework */,
+				0C847F39160D59AD005672ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C847F3B160D59AD005672ED /* PoliticalTweets */ = {
+			isa = PBXGroup;
+			children = (
+				0C847F44160D59AD005672ED /* AppDelegate.h */,
+				0C847F45160D59AD005672ED /* AppDelegate.m */,
+				0C847F4D160D59AD005672ED /* MainStoryboard.storyboard */,
+				0C847F50160D59AD005672ED /* ViewController.h */,
+				0C847F51160D59AD005672ED /* ViewController.m */,
+				0C847F3C160D59AD005672ED /* Supporting Files */,
+			);
+			path = PoliticalTweets;
+			sourceTree = "<group>";
+		};
+		0C847F3C160D59AD005672ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C847F3D160D59AD005672ED /* PoliticalTweets-Info.plist */,
+				0C847F3E160D59AD005672ED /* InfoPlist.strings */,
+				0C847F41160D59AD005672ED /* main.m */,
+				0C847F43160D59AD005672ED /* PoliticalTweets-Prefix.pch */,
+				0C847F47160D59AD005672ED /* Default.png */,
+				0C847F49160D59AD005672ED /* Default@2x.png */,
+				0C847F4B160D59AD005672ED /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C847F30160D59AD005672ED /* PoliticalTweets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C847F55160D59AD005672ED /* Build configuration list for PBXNativeTarget "PoliticalTweets" */;
+			buildPhases = (
+				0C847F2D160D59AD005672ED /* Sources */,
+				0C847F2E160D59AD005672ED /* Frameworks */,
+				0C847F2F160D59AD005672ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoliticalTweets;
+			productName = PoliticalTweets;
+			productReference = 0C847F31160D59AD005672ED /* PoliticalTweets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C847F28160D59AD005672ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Vig Sachidananda";
+			};
+			buildConfigurationList = 0C847F2B160D59AD005672ED /* Build configuration list for PBXProject "PoliticalTweets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C847F26160D59AD005672ED;
+			productRefGroup = 0C847F32160D59AD005672ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C847F30160D59AD005672ED /* PoliticalTweets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C847F2F160D59AD005672ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C847F40160D59AD005672ED /* InfoPlist.strings in Resources */,
+				0C847F48160D59AD005672ED /* Default.png in Resources */,
+				0C847F4A160D59AD005672ED /* Default@2x.png in Resources */,
+				0C847F4C160D59AD005672ED /* Default-568h@2x.png in Resources */,
+				0C847F4F160D59AD005672ED /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C847F2D160D59AD005672ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C847F42160D59AD005672ED /* main.m in Sources */,
+				0C847F46160D59AD005672ED /* AppDelegate.m in Sources */,
+				0C847F52160D59AD005672ED /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C847F3E160D59AD005672ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C847F3F160D59AD005672ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0C847F4D160D59AD005672ED /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C847F4E160D59AD005672ED /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C847F53160D59AD005672ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C847F54160D59AD005672ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C847F56160D59AD005672ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoliticalTweets/PoliticalTweets-Prefix.pch";
+				INFOPLIST_FILE = "PoliticalTweets/PoliticalTweets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0C847F57160D59AD005672ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PoliticalTweets/PoliticalTweets-Prefix.pch";
+				INFOPLIST_FILE = "PoliticalTweets/PoliticalTweets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C847F2B160D59AD005672ED /* Build configuration list for PBXProject "PoliticalTweets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C847F53160D59AD005672ED /* Debug */,
+				0C847F54160D59AD005672ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C847F55160D59AD005672ED /* Build configuration list for PBXNativeTarget "PoliticalTweets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C847F56160D59AD005672ED /* Debug */,
+				0C847F57160D59AD005672ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C847F28160D59AD005672ED /* Project object */;
+}
