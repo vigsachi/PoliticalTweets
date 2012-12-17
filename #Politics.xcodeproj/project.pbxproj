@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C142CBD161FC81D0080FDDA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C142CBC161FC81D0080FDDA /* icon.png */; };
 		0C847F36160D59AD005672ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C847F35160D59AD005672ED /* UIKit.framework */; };
 		0C847F38160D59AD005672ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C847F37160D59AD005672ED /* Foundation.framework */; };
 		0C847F3A160D59AD005672ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C847F39160D59AD005672ED /* CoreGraphics.framework */; };
@@ -18,17 +19,25 @@
 		0C847F4C160D59AD005672ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C847F4B160D59AD005672ED /* Default-568h@2x.png */; };
 		0C847F4F160D59AD005672ED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C847F4D160D59AD005672ED /* MainStoryboard.storyboard */; };
 		0C847F52160D59AD005672ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C847F51160D59AD005672ED /* ViewController.m */; };
+		0C847F5D160D6F49005672ED /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C847F5C160D6F49005672ED /* Twitter.framework */; };
+		0CD2E33F16164E5000F42B47 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD2E33E16164E5000F42B47 /* iAd.framework */; };
+		0CD2E34A1616993600F42B47 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD2E3491616993600F42B47 /* QuartzCore.framework */; };
+		0CD2E3511616A04F00F42B47 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD2E3501616A04F00F42B47 /* DetailViewController.m */; };
+		0CD2E3591616A78100F42B47 /* iPhoneIcon_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CD2E3581616A78100F42B47 /* iPhoneIcon_Small.png */; };
+		0CD2E35B1616A78900F42B47 /* iPhoneIcon_Medium.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CD2E35A1616A78900F42B47 /* iPhoneIcon_Medium.png */; };
+		0CF05FCF161BEECB00DAE848 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF05FCE161BEECB00DAE848 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C847F31160D59AD005672ED /* PoliticalTweets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliticalTweets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C142CBC161FC81D0080FDDA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../Downloads/icon.png; sourceTree = "<group>"; };
+		0C847F31160D59AD005672ED /* #Politics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "#Politics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C847F35160D59AD005672ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0C847F37160D59AD005672ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0C847F39160D59AD005672ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0C847F3D160D59AD005672ED /* PoliticalTweets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoliticalTweets-Info.plist"; sourceTree = "<group>"; };
+		0C847F3D160D59AD005672ED /* #Politics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "#Politics-Info.plist"; sourceTree = "<group>"; };
 		0C847F3F160D59AD005672ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C847F41160D59AD005672ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0C847F43160D59AD005672ED /* PoliticalTweets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PoliticalTweets-Prefix.pch"; sourceTree = "<group>"; };
+		0C847F43160D59AD005672ED /* #Politics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "#Politics-Prefix.pch"; sourceTree = "<group>"; };
 		0C847F44160D59AD005672ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C847F45160D59AD005672ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0C847F47160D59AD005672ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -37,6 +46,15 @@
 		0C847F4E160D59AD005672ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0C847F50160D59AD005672ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0C847F51160D59AD005672ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C847F5C160D6F49005672ED /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		0CD2E33E16164E5000F42B47 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		0CD2E3491616993600F42B47 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0CD2E34F1616A04F00F42B47 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0CD2E3501616A04F00F42B47 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0CD2E3581616A78100F42B47 /* iPhoneIcon_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhoneIcon_Small.png; path = ../../../Downloads/iPhoneIcon_Small.png; sourceTree = "<group>"; };
+		0CD2E35A1616A78900F42B47 /* iPhoneIcon_Medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhoneIcon_Medium.png; path = ../../../Downloads/iPhoneIcon_Medium.png; sourceTree = "<group>"; };
+		0CF05FCD161BEECB00DAE848 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		0CF05FCE161BEECB00DAE848 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +65,9 @@
 				0C847F36160D59AD005672ED /* UIKit.framework in Frameworks */,
 				0C847F38160D59AD005672ED /* Foundation.framework in Frameworks */,
 				0C847F3A160D59AD005672ED /* CoreGraphics.framework in Frameworks */,
+				0C847F5D160D6F49005672ED /* Twitter.framework in Frameworks */,
+				0CD2E33F16164E5000F42B47 /* iAd.framework in Frameworks */,
+				0CD2E34A1616993600F42B47 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +86,7 @@
 		0C847F32160D59AD005672ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C847F31160D59AD005672ED /* PoliticalTweets.app */,
+				0C847F31160D59AD005672ED /* #Politics.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +94,9 @@
 		0C847F34160D59AD005672ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0CD2E3491616993600F42B47 /* QuartzCore.framework */,
+				0CD2E33E16164E5000F42B47 /* iAd.framework */,
+				0C847F5C160D6F49005672ED /* Twitter.framework */,
 				0C847F35160D59AD005672ED /* UIKit.framework */,
 				0C847F37160D59AD005672ED /* Foundation.framework */,
 				0C847F39160D59AD005672ED /* CoreGraphics.framework */,
@@ -83,9 +107,13 @@
 		0C847F3B160D59AD005672ED /* PoliticalTweets */ = {
 			isa = PBXGroup;
 			children = (
+				0CF05FCD161BEECB00DAE848 /* MapViewController.h */,
+				0CF05FCE161BEECB00DAE848 /* MapViewController.m */,
 				0C847F44160D59AD005672ED /* AppDelegate.h */,
 				0C847F45160D59AD005672ED /* AppDelegate.m */,
 				0C847F4D160D59AD005672ED /* MainStoryboard.storyboard */,
+				0CD2E34F1616A04F00F42B47 /* DetailViewController.h */,
+				0CD2E3501616A04F00F42B47 /* DetailViewController.m */,
 				0C847F50160D59AD005672ED /* ViewController.h */,
 				0C847F51160D59AD005672ED /* ViewController.m */,
 				0C847F3C160D59AD005672ED /* Supporting Files */,
@@ -96,10 +124,13 @@
 		0C847F3C160D59AD005672ED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0C847F3D160D59AD005672ED /* PoliticalTweets-Info.plist */,
+				0C847F3D160D59AD005672ED /* #Politics-Info.plist */,
 				0C847F3E160D59AD005672ED /* InfoPlist.strings */,
 				0C847F41160D59AD005672ED /* main.m */,
-				0C847F43160D59AD005672ED /* PoliticalTweets-Prefix.pch */,
+				0C847F43160D59AD005672ED /* #Politics-Prefix.pch */,
+				0CD2E35A1616A78900F42B47 /* iPhoneIcon_Medium.png */,
+				0C142CBC161FC81D0080FDDA /* icon.png */,
+				0CD2E3581616A78100F42B47 /* iPhoneIcon_Small.png */,
 				0C847F47160D59AD005672ED /* Default.png */,
 				0C847F49160D59AD005672ED /* Default@2x.png */,
 				0C847F4B160D59AD005672ED /* Default-568h@2x.png */,
@@ -110,9 +141,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C847F30160D59AD005672ED /* PoliticalTweets */ = {
+		0C847F30160D59AD005672ED /* #Politics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C847F55160D59AD005672ED /* Build configuration list for PBXNativeTarget "PoliticalTweets" */;
+			buildConfigurationList = 0C847F55160D59AD005672ED /* Build configuration list for PBXNativeTarget "#Politics" */;
 			buildPhases = (
 				0C847F2D160D59AD005672ED /* Sources */,
 				0C847F2E160D59AD005672ED /* Frameworks */,
@@ -122,9 +153,9 @@
 			);
 			dependencies = (
 			);
-			name = PoliticalTweets;
+			name = "#Politics";
 			productName = PoliticalTweets;
-			productReference = 0C847F31160D59AD005672ED /* PoliticalTweets.app */;
+			productReference = 0C847F31160D59AD005672ED /* #Politics.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +167,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Vig Sachidananda";
 			};
-			buildConfigurationList = 0C847F2B160D59AD005672ED /* Build configuration list for PBXProject "PoliticalTweets" */;
+			buildConfigurationList = 0C847F2B160D59AD005672ED /* Build configuration list for PBXProject "#Politics" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -148,7 +179,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C847F30160D59AD005672ED /* PoliticalTweets */,
+				0C847F30160D59AD005672ED /* #Politics */,
 			);
 		};
 /* End PBXProject section */
@@ -163,6 +194,9 @@
 				0C847F4A160D59AD005672ED /* Default@2x.png in Resources */,
 				0C847F4C160D59AD005672ED /* Default-568h@2x.png in Resources */,
 				0C847F4F160D59AD005672ED /* MainStoryboard.storyboard in Resources */,
+				0CD2E3591616A78100F42B47 /* iPhoneIcon_Small.png in Resources */,
+				0CD2E35B1616A78900F42B47 /* iPhoneIcon_Medium.png in Resources */,
+				0C142CBD161FC81D0080FDDA /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +210,8 @@
 				0C847F42160D59AD005672ED /* main.m in Sources */,
 				0C847F46160D59AD005672ED /* AppDelegate.m in Sources */,
 				0C847F52160D59AD005672ED /* ViewController.m in Sources */,
+				0CD2E3511616A04F00F42B47 /* DetailViewController.m in Sources */,
+				0CF05FCF161BEECB00DAE848 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +246,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Vighnesh Sachidananda";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -224,6 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -237,6 +275,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Vighnesh Sachidananda";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -245,6 +284,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -254,9 +294,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PoliticalTweets/PoliticalTweets-Prefix.pch";
-				INFOPLIST_FILE = "PoliticalTweets/PoliticalTweets-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PoliticalTweets/#Politics-Prefix.pch";
+				INFOPLIST_FILE = "PoliticalTweets/#Politics-Info.plist";
+				PRODUCT_NAME = "#Politics";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -265,9 +306,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PoliticalTweets/PoliticalTweets-Prefix.pch";
-				INFOPLIST_FILE = "PoliticalTweets/PoliticalTweets-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PoliticalTweets/#Politics-Prefix.pch";
+				INFOPLIST_FILE = "PoliticalTweets/#Politics-Info.plist";
+				PRODUCT_NAME = "#Politics";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -275,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C847F2B160D59AD005672ED /* Build configuration list for PBXProject "PoliticalTweets" */ = {
+		0C847F2B160D59AD005672ED /* Build configuration list for PBXProject "#Politics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C847F53160D59AD005672ED /* Debug */,
@@ -284,13 +326,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C847F55160D59AD005672ED /* Build configuration list for PBXNativeTarget "PoliticalTweets" */ = {
+		0C847F55160D59AD005672ED /* Build configuration list for PBXNativeTarget "#Politics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C847F56160D59AD005672ED /* Debug */,
 				0C847F57160D59AD005672ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
